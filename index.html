@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Montserrat font family link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+<!-- Fraunces font family for letter heading --> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@500;700;900&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+<section class="container">
+  <picture class="image">
+    <source srcset="./images/image-product-desktop.jpg" media="(min-width:600px)">
+    <img src="./images/image-product-mobile.jpg" alt="perfume" class="perfume">
+  </picture>
+
+<article class="right-container">
+
+<!-- the right card -->
+ <p class="preview"> PREFUME </p>
+
+<!-- the heading of the card -->
+ <h1 class="essence"> Gabrielle Essence Eau De Parfum </h1>
+
+ <!-- the card content -->
+ <p class="floral"> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+
+  <!-- the price tag structure -->
+<div class="dollar-container">
+ <p class="dollar"> $149.99 </p>
+ <p class="the-price"> <s> $169.99</s> </p>
+</div>
+
+ <button data-icon="shopping-cart" class="button">Add to Cart</button>
+
+</article>
+</section>
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="www.twitter.com/heisemmaco">
+  Heisemmaco
+    </a>.
+  </div>
+
+
+</body>
+</html>
