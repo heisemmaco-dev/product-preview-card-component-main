@@ -20,6 +20,7 @@
 */
 *, *::before, *::after {
     box-sizing: border-box;
+    padding: 0;
   }
   /*
     2. Remove default margin
@@ -68,9 +69,7 @@
 
   display: grid;
   place-content: center;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+  
   }
 
   /* the perfume contain styling */
@@ -102,7 +101,6 @@ align-items: center;
   border-radius: 9px;
   overflow: hidden;
   display:grid;
- flex-direction: column;
  max-width: 600px;
 }
 /* the perfume container*/
@@ -156,7 +154,8 @@ button:is(:hover, :focus) {
 
 
 .attribution {
-  margin-top: 2em;
+  margin-top: 0.8em;
   display: flex;
   justify-content: center;
 }
+
